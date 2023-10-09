@@ -9,7 +9,7 @@ public class XamlNamespaceUpgradeStep : UpgradeStep
 {
     private static readonly IReadOnlyDictionary<string, string> XamarinToMauiReplacementMap = new Dictionary<string, string>
     {
-        { "http://rotorgames.com", "" },
+        { "http://rotorgames.com", "clr-namespace:Mopups.Pages;assembly=Mopups" },
         { "clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup", "clr-namespace:Mopups.Pages;assembly=Mopups"},
         { "clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup", "clr-namespace:Mopups.Animations;assembly=Mopups" },
     };
