@@ -1,0 +1,15 @@
+﻿{
+  "ExtensionName": "My extension",
+
+  "PackageUpdater": {
+    "PackageMapPath": "PackageMaps"
+  },
+
+  "TemplateInserter": {
+    "TemplatePath": "Templates"
+  },
+
+  "ExtensionServiceProviders": [
+    "UpgradeAssistant.Extension.Maui.Community.dll"
+  ]
+}

@@ -1,0 +1,56 @@
+﻿[
+  {
+    "PackageSetName": "Rg.Plugin.Popups",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Rg.Plugins.Popup",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "Mopups",
+        "Version": "1.1.1"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "FFImageloading",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xamarin.FFImageLoading",
+        "Version": "*"
+      },
+      {
+        "Name": "Xamarin.FFImageLoading.Forms",
+        "Version": "*"
+      },
+      {
+        "Name": "Xamarin.FFImageLoading.Svg.Forms",
+        "Version": "*"
+      },
+      {
+        "Name": "Xamarin.FFImageLoading.Transformations",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "FFImageLoadingCompat",
+        "Version": "0.1.1"
+      },
+      {
+        "Name": "FFImageLoadingCompat.Maui",
+        "Version": "0.1.1"
+      },
+      {
+        "Name": "FFImageLoadingCompat.Svg.Maui",
+        "Version": "0.1.1"
+      },
+      {
+        "Name": "FFImageLoadingCompat.Transformations",
+        "Version": "0.1.1"
+      }
+    ]
+  }
+]

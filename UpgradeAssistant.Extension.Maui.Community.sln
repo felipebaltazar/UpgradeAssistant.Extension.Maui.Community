@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpgradeAssistant.Extension.Maui.Community", "UpgradeAssistant.Extension.Maui.Community\UpgradeAssistant.Extension.Maui.Community.csproj", "{096736AF-8BA5-4179-B5AB-26E055B065AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A4C9258-BE6D-4D22-B578-422C8A3A3E23}
+	EndGlobalSection
+EndGlobal
