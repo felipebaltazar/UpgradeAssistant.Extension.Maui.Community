@@ -1,5 +1,5 @@
 # UpgradeAssistant.Extension.Maui.Community
-A upgrade extension to help Xamarin to MAUI migration
+A extension to help Xamarin to MAUI migration
 
 ## Upgrade assistante usage for MAUI
 
