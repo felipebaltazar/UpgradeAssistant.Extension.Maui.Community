@@ -10,10 +10,13 @@ A extension to help Xamarin to MAUI migration
 
 ## Package map
 
-|                         Xamarin Package                           |                               Maui Package                           |
-|:-----------------------------------------------------------------:|:--------------------------------------------------------------------:|
-|[Rg.Plugins.Popup](https://github.com/rotorgames/Rg.Plugins.Popup) |[Mopups](https://github.com/LuckyDucko/Mopups)                        |
-|[FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)|[FFImageLoadingCompat](https://github.com/Redth/FFImageLoading.Compat)|
+|                             Xamarin Package                               |                               Maui Package                                                         |
+|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
+|[Rg.Plugins.Popup](https://github.com/rotorgames/Rg.Plugins.Popup)         |[Mopups](https://github.com/LuckyDucko/Mopups)                                                      |
+|[FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)        |[FFImageLoadingCompat](https://github.com/Redth/FFImageLoading.Compat)                              |
+|[PancakeView](https://github.com/sthewissen/Xamarin.Forms.PancakeView/)    |[Maui.PancakeView](https://github.com/felipebaltazar/Maui.PancakeView)                              |
+|[Sharpnado.Shadows](https://github.com/roubachof/Sharpnado.Shadows)     |[SharpnadoCompat.Shadows](https://github.com/felipebaltazar/SharpnadoCompat.Shadows)                |
+|[Xam.Plugin.LatestVersion](https://github.com/edsnider/LatestVersionPlugin)|[Maui.Plugin.LatestVersionCompat](https://github.com/felipebaltazar/Maui.Plugin.LatestVersionCompat)|
 
 
 ## Contributing
