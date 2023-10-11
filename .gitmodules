@@ -1,0 +1,3 @@
+[submodule "upgrade-assistant"]
+	path = upgrade-assistant
+	url = https://github.com/felipebaltazar/upgrade-assistant
