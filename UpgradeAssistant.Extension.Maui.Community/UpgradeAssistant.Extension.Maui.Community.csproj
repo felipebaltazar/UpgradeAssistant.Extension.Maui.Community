@@ -4,8 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackExtension>true</PackExtension>
     <ExtensionName>Maui</ExtensionName>
     <LangVersion>latest</LangVersion>
+    <PackageType>UpgradeAssistantExtension</PackageType>
+    <Version>1.0.1</Version>
     <Description>Enhances .NET Upgrade Assistant to provide support for moving from Xamarin community packages to .NET Maui compat packages.</Description>
   </PropertyGroup>
   
