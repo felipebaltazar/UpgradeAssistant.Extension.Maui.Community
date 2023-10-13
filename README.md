@@ -3,10 +3,22 @@ A extension to help Xamarin to MAUI migration
 
 ## Upgrade assistante usage for MAUI
 
-[<img alt="alt_text" width="400px" src="https://github.com/felipebaltazar/UpgradeAssistant.Extension.Maui.Community/assets/19656249/5f7aa6f2-23bd-4fd3-a8bb-efe0a916076f" />](https://www.youtube.com/watch?v=_XT7m5oIKCs)[<img alt="alt_text" width="400px" src="https://github.com/felipebaltazar/UpgradeAssistant.Extension.Maui.Community/assets/19656249/4072c8aa-3f2f-4298-80c1-17fa5a4e7e89" />](https://www.youtube.com/watch?v=7EaHKGUCIqc)
 
-[<img alt="alt_text" width="400px" src="https://github.com/felipebaltazar/UpgradeAssistant.Extension.Maui.Community/assets/19656249/2f648977-df0e-4dba-a94a-51e316888efd" />](https://www.youtube.com/watch?v=hx6ifOkbyPg)
+Install the [upgrade assistant CLI](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-install-legacy#install-the-legacy-version)
 
+`dotnet tool install upgrade-assistant -g --ignore-failed-sources --version 0.4.421302`
+
+Go to project repository and add this extension
+
+`upgrade-assistant extensions add UpgradeAssistant.Extension.Maui.Community` --version 1.0.7
+
+Restore all extensions
+
+`upgrade-assistant extensions restore`
+
+Migrate your xamarin project to MAUI
+
+`upgrade-assistant upgrade {yourprojectname}.csproj --ignore-unsupported-features` 
 
 ## Package map
 
