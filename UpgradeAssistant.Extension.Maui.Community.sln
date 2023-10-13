@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpgradeAssistant.Extension.Maui.Community", "UpgradeAssistant.Extension.Maui.Community\UpgradeAssistant.Extension.Maui.Community.csproj", "{096736AF-8BA5-4179-B5AB-26E055B065AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpgradeAssistant.Extension.Maui.Community", "UpgradeAssistant.Extension.Maui.Community\UpgradeAssistant.Extension.Maui.Community.csproj", "{096736AF-8BA5-4179-B5AB-26E055B065AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.DotNet.UpgradeAssistant.Telemetry", "upgrade-assistant\src\components\Microsoft.DotNet.UpgradeAssistant.Telemetry\Microsoft.DotNet.UpgradeAssistant.Telemetry.csproj", "{C6ACCD43-DDD9-4CD0-8F25-8975B3348005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096736AF-8BA5-4179-B5AB-26E055B065AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6ACCD43-DDD9-4CD0-8F25-8975B3348005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ACCD43-DDD9-4CD0-8F25-8975B3348005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6ACCD43-DDD9-4CD0-8F25-8975B3348005}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ACCD43-DDD9-4CD0-8F25-8975B3348005}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

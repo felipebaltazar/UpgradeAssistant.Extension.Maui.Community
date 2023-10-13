@@ -52,5 +52,50 @@
         "Version": "0.1.1"
       }
     ]
+  },
+  {
+    "PackageSetName": "PancakeView",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xamarin.Forms.PancakeView",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "PancakeViewCompat",
+        "Version": "6.0.1-pre"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Sharpnado.Shadows",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Sharpnado.Shadows",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "ShadowsCompat",
+        "Version": "6.0.0-pre"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Xam.Plugin.LatestVersion",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xam.Plugin.LatestVersion",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "Plugin.LatestVersionCompat",
+        "Version": "6.0.0-pre"
+      }
+    ]
   }
 ]

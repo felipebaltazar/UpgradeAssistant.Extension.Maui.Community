@@ -12,6 +12,8 @@ public class XamlNamespaceUpgradeStep : UpgradeStep
         { "http://rotorgames.com", "clr-namespace:Mopups.Pages;assembly=Mopups" },
         { "clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup", "clr-namespace:Mopups.Pages;assembly=Mopups"},
         { "clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup", "clr-namespace:Mopups.Animations;assembly=Mopups" },
+        { "clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView", "clr-namespace:Maui.PancakeView;assembly=PancakeViewCompat" },
+        { "clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows", "clr-namespace:Sharpnado.Shades;assembly=ShadowsCompat"},
     };
 
     private readonly IPackageRestorer _restorer;
