@@ -10,7 +10,26 @@ Install the [upgrade assistant CLI](https://learn.microsoft.com/en-us/dotnet/cor
 
 Go to project repository and add this extension
 
-`upgrade-assistant extensions add UpgradeAssistant.Extension.Maui.Community` --version 1.0.7
+`upgrade-assistant extensions add UpgradeAssistant.Extension.Maui.Community --version 1.0.7`
+
+Or add a `upgrade-assistant.json` file to your project repository path
+
+```json
+{
+  "Extensions": [
+    {
+      "Name": "UpgradeAssistant.Extension.Maui.Community",
+      "Version": "1.0.7",
+      "Source": "https://api.nuget.org/v3/index.json"
+    },
+    {
+      "Name": "Microsoft.DotNet.UpgradeAssistant.Extensions.Maui",
+      "Version": "0.4.421302",
+      "Source": "https://api.nuget.org/v3/index.json"
+    }
+  ]
+}
+```
 
 Restore all extensions
 
