@@ -18,9 +18,9 @@ public class XamlNamespaceUpgradeStep : UpgradeStep
 
     private readonly IPackageRestorer _restorer;
 
-    public override string Title => "Update XAML Namespaces";
+    public override string Title => "Update XAML community packages Namespaces";
 
-    public override string Description => "Updates XAML namespaces to .NET MAUI";
+    public override string Description => "Updates XAML namespaces from community packages to .NET MAUI community packages";
 
     public XamlNamespaceUpgradeStep(IPackageRestorer restorer, ILogger<XamlNamespaceUpgradeStep> logger)
         : base(logger)

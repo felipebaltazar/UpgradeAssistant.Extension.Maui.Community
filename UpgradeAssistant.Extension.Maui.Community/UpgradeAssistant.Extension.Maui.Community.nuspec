@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>UpgradeAssistant.Extension.Maui.Community</id>
+        <packageType>UpgradeAssistantExtension</packageType>
+        <version>1.0.8-pre</version>
+        <title>UpgradeAssistant.Extension.Maui.Community</title>
+        <authors>Felipe Baltazar</authors>
+        <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+        <projectUrl>https://github.com/felipebaltazar/UpgradeAssistant.Extension.Maui.Community</projectUrl>
+        <description>Enhances .NET Upgrade Assistant to provide support for moving from Xamarin community packages to .NET Maui compat packages.</description>
+        <copyright>Felipe Baltazar</copyright>
+        <tags>.NET Upgrade Assistant</tags>
+        <repository url="https://github.com/felipebaltazar/UpgradeAssistant.Extension.Maui.Community" />
+        <dependencies>
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="Microsoft.DotNet.UpgradeAssistant.Abstractions" version="0.3.310801" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Debug\netstandard2.0\*.dll" target="" />
+        <file src="bin\Debug\netstandard2.0\*.pdb" target="" />
+        <file src="bin\Debug\netstandard2.0\*.deps.json" target="" />
+        <file src="bin\Debug\netstandard2.0\ExtensionManifest.json" target="" />
+        <file src="bin\Debug\netstandard2.0\PackageMaps\XamarinPackageMap.json" target="PackageMaps\XamarinPackageMap.json" />
+    </files>
+</package>
