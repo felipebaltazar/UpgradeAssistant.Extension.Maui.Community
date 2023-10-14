@@ -77,7 +77,6 @@ public class UsingCommunityAnalyzerCodeFixProvider : CodeFixProvider
             documentRoot = documentRoot?.AddUsingIfMissing(name);
         }
 
-
         if (documentRoot is not null)
         {
             editor.ReplaceNode(editor.OriginalRoot, documentRoot);
@@ -89,6 +88,12 @@ public class UsingCommunityAnalyzerCodeFixProvider : CodeFixProvider
     private static async Task<Document> RemoveNamespaceQualifierAsync(Document document, SyntaxNode node, CancellationToken cancellationToken)
     {
         var editor = await DocumentEditor.CreateAsync(document, cancellationToken).ConfigureAwait(false);
+        var documentRoot = (CompilationUnitSyntax)editor.OriginalRoot;
+
+        foreach (var name in NewCommunityNamespaces)
+        {
+            documentRoot = documentRoot?.AddUsingIfMissing(name);
+        }
 
         if (node.Parent is not null)
         {
