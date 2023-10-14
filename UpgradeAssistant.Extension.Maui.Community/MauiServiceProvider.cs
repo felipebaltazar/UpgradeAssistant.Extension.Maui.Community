@@ -1,5 +1,8 @@
-﻿using Microsoft.DotNet.UpgradeAssistant;
+﻿using Microsoft.CodeAnalysis.CodeFixes;
+using Microsoft.CodeAnalysis.Diagnostics;
+using Microsoft.DotNet.UpgradeAssistant;
 using Microsoft.DotNet.UpgradeAssistant.Extensions;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace UpgradeAssistant.Extension.Maui.Community;
 
@@ -13,5 +16,7 @@ public class MauiServiceProvider : IExtensionServiceProvider
         }
 
         services.Services.AddUpgradeStep<XamlNamespaceUpgradeStep>();
+        services.Services.AddTransient<DiagnosticAnalyzer, UsingCommunityAnalyzer>();
+        services.Services.AddTransient<CodeFixProvider, UsingCommunityAnalyzerCodeFixProvider>();
     }
 }

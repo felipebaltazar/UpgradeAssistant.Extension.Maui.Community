@@ -97,5 +97,121 @@
         "Version": "6.0.0-pre"
       }
     ]
+  },
+  {
+    "PackageSetName": "MagicGradients",
+    "NetFrameworkPackages": [
+      {
+        "Name": "MagicGradients",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+    ]
+  },
+  {
+    "PackageSetName": "Plugin.Fingerprint",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Plugin.Fingerprint",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "Plugin.Fingerprint",
+        "Version": "3.0.0-beta.1"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Plugin.StoreReview",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Plugin.StoreReview",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "Plugin.StoreReview",
+        "Version": "6.0.0"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Xam.Plugin.Media",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xam.Plugin.Media",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "Xam.Plugin.Media",
+        "Version": "6.0.2"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "CardsView",
+    "NetFrameworkPackages": [
+      {
+        "Name": "CardsView",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "CardsView.Maui",
+        "Version": "0.0.4"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "BarcodeScanner.XF",
+    "NetFrameworkPackages": [
+      {
+        "Name": "BarcodeScanner.XF",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "BarcodeScanner.Mobile.Maui",
+        "Version": "7.0.0.1-pre"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Com.Airbnb.Xamarin.Forms.Lottie",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Com.Airbnb.Xamarin.Forms.Lottie",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "SkiaSharp.Skottie",
+        "Version": "2.88.6"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Xamarin.Forms.NeoControls ",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xamarin.Forms.NeoControls ",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "NeoControls.Maui",
+        "Version": "1.0.17"
+      }
+    ]
   }
 ]
