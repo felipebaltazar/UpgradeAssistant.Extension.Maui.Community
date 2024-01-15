@@ -17,6 +17,7 @@ public class XamlNamespaceUpgradeStep : UpgradeStep
         { "clr-namespace:Lottie.Forms;assembly=Lottie.Forms","clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI" },
         { ":AnimationView", ":SKLottieView" },
         { "clr-namespace:Xamarin.Forms.NeoControls;assembly=Xamarin.Forms.NeoControls", "clr-namespace:Maui.NeoControls;assembly=Maui.NeoControls" }
+        { "clr-namespace:TouchEffect;assembly=TouchEffect", string.Empty }
     };
 
     private readonly IPackageRestorer _restorer;
