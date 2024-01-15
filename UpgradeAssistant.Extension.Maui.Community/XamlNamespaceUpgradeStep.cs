@@ -14,13 +14,16 @@ public class XamlNamespaceUpgradeStep : UpgradeStep
         { "clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup", "clr-namespace:Mopups.Animations;assembly=Mopups" },
         { "clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView", "clr-namespace:Maui.PancakeView;assembly=PancakeViewCompat" },
         { "clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows", "clr-namespace:Sharpnado.Shades;assembly=ShadowsCompat"},
+        { "clr-namespace:Lottie.Forms;assembly=Lottie.Forms","clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI" },
+        { ":AnimationView", ":SKLottieView" },
+        { "clr-namespace:Xamarin.Forms.NeoControls;assembly=Xamarin.Forms.NeoControls", "clr-namespace:Maui.NeoControls;assembly=Maui.NeoControls" }
     };
 
     private readonly IPackageRestorer _restorer;
 
-    public override string Title => "Update XAML Namespaces";
+    public override string Title => "Update XAML community packages Namespaces";
 
-    public override string Description => "Updates XAML namespaces to .NET MAUI";
+    public override string Description => "Updates XAML namespaces from community packages to .NET MAUI community packages";
 
     public XamlNamespaceUpgradeStep(IPackageRestorer restorer, ILogger<XamlNamespaceUpgradeStep> logger)
         : base(logger)
