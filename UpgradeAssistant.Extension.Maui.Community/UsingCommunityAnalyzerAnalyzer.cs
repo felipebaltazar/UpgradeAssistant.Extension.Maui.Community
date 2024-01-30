@@ -17,7 +17,8 @@ public class UsingCommunityAnalyzer : DiagnosticAnalyzer
     {
         "Rg.Plugins.Popup",
         "Rg.Plugins.Popup.Services",
-        "Rg.Plugins.Popup.Pages"
+        "Rg.Plugins.Popup.Pages",
+        "TouchEffect"
     };
 
     private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(

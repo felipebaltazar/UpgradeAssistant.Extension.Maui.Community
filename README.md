@@ -41,7 +41,7 @@ Migrate your xamarin project to MAUI
 
 ## Package map
 
-|                             Xamarin Package                                            |                                Maui Package                                                         |
+|                             Xamarin Package                                            |                                Maui Package                                                        |
 |:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
 |[Rg.Plugins.Popup](https://github.com/rotorgames/Rg.Plugins.Popup)                      |[Mopups](https://github.com/LuckyDucko/Mopups)                                                      |
 |[FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)                     |[FFImageLoadingCompat](https://github.com/Redth/FFImageLoading.Compat)                              |
@@ -52,6 +52,8 @@ Migrate your xamarin project to MAUI
 |[Com.Airbnb.Xamarin.Forms.Lottie](https://github.com/Baseflow/LottieXamarin)            |[SkiaSharp.Skottie](https://github.com/mono/SkiaSharp)                                              |
 |[CardsView](https://github.com/AndreiMisiukevich/CardView)                              |[CardsView.Maui](https://github.com/AndreiMisiukevich/CardView.MAUI)                                |
 |[Xamarin.Forms.NeoControls](https://github.com/felipebaltazar/Xamarin.Forms.NeoControls)|[NeoControls.Maui](https://github.com/felipebaltazar/Maui.NeoControls)                              |
+|[TouchEffect](https://github.com/AndreiMisiukevich/TouchEffect)                         |[TouchEffect.Maui](https://github.com/felipebaltazar/TouchEffect.Maui)                              |
+|[Xamarin.Forms.DebugRainbows](https://github.com/sthewissen/Xamarin.Forms.DebugRainbows)|[Maui.DebugRainbowsCompat](https://github.com/AdrianoBinhara/Xamarin.Forms.DebugRainbows)           |
 
 
 ## Contributing

@@ -18,7 +18,8 @@ public class UsingCommunityAnalyzerCodeFixProvider : CodeFixProvider
         "Mopups.Hosting",
         "Mopups.Pages",
         "Mopups.Services",
-        "Mopups.Events"
+        "Mopups.Events",
+        "Maui.TouchEffect"
     };
 
     public sealed override ImmutableArray<string> FixableDiagnosticIds => ImmutableArray.Create(UsingCommunityAnalyzer.DiagnosticId);

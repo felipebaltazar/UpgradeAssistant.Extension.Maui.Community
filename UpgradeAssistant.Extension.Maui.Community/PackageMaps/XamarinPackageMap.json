@@ -200,10 +200,10 @@
     ]
   },
   {
-    "PackageSetName": "Xamarin.Forms.NeoControls ",
+    "PackageSetName": "Xamarin.Forms.NeoControls",
     "NetFrameworkPackages": [
       {
-        "Name": "Xamarin.Forms.NeoControls ",
+        "Name": "Xamarin.Forms.NeoControls",
         "Version": "*"
       }
     ],
@@ -211,6 +211,51 @@
       {
         "Name": "NeoControls.Maui",
         "Version": "1.0.17"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "TouchEffect",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xamarin.Community.Toolkit",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "TouchEffect.Maui",
+        "Version": "7.0.0"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "TouchEffect",
+    "NetFrameworkPackages": [
+      {
+        "Name": "TouchView",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "TouchEffect.Maui",
+        "Version": "7.0.0"
+      }
+    ]
+  },
+  {
+    "PackageSetName": "Xamarin.Forms.DebugRainbows",
+    "NetFrameworkPackages": [
+      {
+        "Name": "Xamarin.Forms.DebugRainbows",
+        "Version": "*"
+      }
+    ],
+    "NetCorePackages": [
+      {
+        "Name": "DebugRainbowCompat",
+        "Version": "1.0.4-pre"
       }
     ]
   }
